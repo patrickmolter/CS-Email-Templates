@@ -1,0 +1,295 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$leadingcapital(lookup(FIRST_NAME))$, thank you for your purchase - From your friends at Cellular Sales</title>
+    <style type="text/css">
+    /* Based on The MailChimp Reset INLINE: Yes. */  
+            /* Client-specific Styles */
+    #outlook a {
+        padding: 0;
+    } /* Force Outlook to provide a "view in browser" menu link. */
+    body {
+        width: 100% !important;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    /* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/ 
+    .ExternalClass {
+        width: 100%;
+    } /* Force Hotmail to display emails at full width */
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+        line-height: 100%;
+    }
+    /* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */ 
+    #backgroundTable {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+    line-height: 100% !;
+    }
+    /* End reset */
+    
+            /* Some sensible defaults for images
+            Bring inline: Yes. */
+    img {
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+        display: block;
+    }
+    a img {
+        border: none;
+    }
+    .image_fix {
+        display: block;
+    }
+    /* Yahoo paragraph fix
+            Bring inline: Yes. */
+    p {
+        margin: 1em 0 !important;
+    }
+    /* Hotmail header color reset
+            Bring inline: Yes. */
+    h1, h2, h3, h4, h5, h6 {
+        color: black;
+    }
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+        color: blue !important;
+    }
+    h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+        color: red !important; /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+    }
+    h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+        color: purple !important; /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+    }
+    /* Outlook 07, 10 Padding issue fix
+            Bring inline: No.*/
+    table td {
+        border-collapse: collapse;
+    }
+    /* Remove spacing around Outlook 07, 10 tables
+            Bring inline: Yes */
+    table {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+    }
+    /* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+            Bring inline: Yes. */
+    a {
+        color: #1155CC;
+    }
+    /* IOS Mail fix for blue dates, phone numbers, etc. */
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+    
+    /***************************************************
+            ****************************************************
+            MOBILE TARGETING
+            ****************************************************
+            ***************************************************/
+    @media only screen and (max-device-width: 480px) {
+    /* Part one of controlling phone number linking for mobile. */
+    a[href^="tel"], a[href^="sms"] {
+        text-decoration: none;
+        color: blue; /* or whatever your want */
+        pointer-events: none;
+        cursor: default;
+    }
+    .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+        text-decoration: default;
+        color: orange !important;
+        pointer-events: auto;
+        cursor: default;
+    }
+    }
+    
+    /* More Specific Targeting */
+    
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* You guessed it, ipad (tablets, smaller screens, etc) */
+                /* repeating for the ipad */
+    a[href^="tel"], a[href^="sms"] {
+        text-decoration: none;
+        color: blue; /* or whatever your want */
+        pointer-events: none;
+        cursor: default;
+    }
+    .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+        text-decoration: default;
+        color: orange !important;
+        pointer-events: auto;
+        cursor: default;
+    }
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Put your iPhone 4g styles in here */ 
+    }
+    
+    /* Android targeting */
+    @media only screen and (-webkit-device-pixel-ratio:.75) {
+    /* Put CSS for low density (ldpi) Android layouts in here */
+    }
+    
+    @media only screen and (-webkit-device-pixel-ratio:1) {
+    /* Put CSS for medium density (mdpi) Android layouts in here */
+    }
+    
+    @media only screen and (-webkit-device-pixel-ratio:1.5) {
+    /* Put CSS for high density (hdpi) Android layouts in here */
+    }
+            /* end Android targeting */
+    </style>
+    <!-- Targeting Windows Mobile --><!--[if IEMobile 7]>
+        <style type="text/css">
+        
+        </style>
+        <![endif]--><!-- ***********************************************
+        ****************************************************
+        END MOBILE TARGETING
+        ****************************************************
+        ************************************************ --><!--[if gte mso 9]>
+            <style>
+            /* Target Outlook 2007 and 2010 */
+            @font-face {
+                font-family: 'VerizonApexBold';
+                src: url('https://responsys.hs.llnwd.net/i5/responsysimages/content/cellularsls/VerizonApex-Bold.otf');
+                font-weight: bold;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'VerizonApexBook';
+                src: url('https://responsys.hs.llnwd.net/i5/responsysimages/content/cellularsls/VerizonApex-Book.otf');
+                font-weight: bold;
+                font-style: normal;
+            }		
+            .greeting h3 {
+                font-family: Arial, Helvetica, sans-serif !important;
+                }
+            .signature_name {
+                color: #ffffff !important;
+                }
+            .signature_email a {
+                color: #ffffff !important;
+                }
+            </style>
+        <![endif]--><!-- ***********************************************
+        ****************************************************
+        CUSTOM STYLING
+        ****************************************************
+        ************************************************ -->
+    <style type="text/css">
+    @font-face {
+        font-family: 'VerizonApexBold';
+        src: url('https://responsys.hs.llnwd.net/i5/responsysimages/content/cellularsls/VerizonApex-Bold.otf');
+        font-weight: bold;
+        font-style: normal;
+    }
+    @font-face {
+    style="background-color: #EFEFEF; vertical-align: bottom;" font-family: 'VerizonApexBook';
+        src: url('https://responsys.hs.llnwd.net/i5/responsysimages/content/cellularsls/VerizonApex-Book.otf');
+        font-weight: bold;
+        font-style: normal;
+    }
+    </style>
+    <!--GOOGLE PANELS - still in beta
+        <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "EmailMessage",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Verizon Retailer, Cellular Sales",
+            "url": "http://www.cellularsales.com",
+            "url/googlePlus": "https://plus.google.com/u/0/104798986701706631801/posts"
+          }
+        }
+        </script>
+        -->
+    </head>
+    <body>
+    <!-- Wrapper/Container Table: Use a wrapper table to control the width and the background color consistently of your email. Use this approach instead of setting attributes on the body tag. -->
+    <table cellpadding="0" cellspacing="0" border="0" align="center" id="backgroundTable" width="100%" style="table-layout: fixed;">
+      <tbody>
+        <tr>
+          <td valign="top" align="center"><!-- Tables are the most common way to format your email consistently. Set your table widths inside cells and in most cases reset cellpadding, cellspacing, and border to zero. Use nested tables as a way to space effectively in your message. -->
+            
+            <table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="min-width: 650px;">
+              <tbody>
+                <tr>
+                  <td align="center" width="650" style="min-width: 650px;"><p style="font-style: normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; line-height: 1.3em; margin: 1em 0; color: #333333;">Is this email not viewing correctly? <a href="$formlink(campaignname(),customer_name_first,DEALER_NAME,DEALER_PHONE,DEALER_EMAIL,customer_opt_in,customer_city,customer_state,customer_has_uninsured_phone)$">View in your browser</a></p></td>
+                </tr>
+              </tbody>
+            </table>
+            $document(/contentlibrary/GlobalHeader, !GlobalMarketingHeader2015)$
+            <table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="min-width: 650px;">
+              <tbody>
+                <tr>
+                  <td colspan="3"><img src="CSThankYou_01.images/hero.jpg" width="650" height="388" style="display:block; min-width: 650px;" alt="THANK YOU!" /></td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="min-width: 650px;">
+              <tbody>
+                <tr>
+                  <td colspan="2" width="590" align="left" style="min-width: 590px; font-size: 15px; font-family: Arial, Helvetica, sans-serif; line-height: 1.3em; color: #252525; padding-top: 18px; padding-bottom: 18px; padding-left: 30px; padding-right: 30px; "><div class="message_container">
+                      <p style="font-size: 15px; font-family: Arial, Helvetica, sans-serif; line-height: 1.3em; margin: 0 0 18px 0; color: #252525;">Dear $cond(containsvalue(customer_name_first), capitalizewords(lookup(customer_name_first)), Valued Customer)$,</p>
+                      <p style="font-size: 15px; font-family: Arial, Helvetica, sans-serif; line-height: 1.3em; margin: 0 0 18px 0; color: #252525;">I wanted to drop you a note and thank you for your purchase from me and Cellular Sales. &nbsp;I pride myself on earning your business and turning you into a client for life!</p>
+                      <p style="font-size: 15px; font-family: Arial, Helvetica, sans-serif; line-height: 1.3em; margin: 0 0 18px 0; color: #252525;">If there is anything I can do to help you, please do not hesitate to contact me and if you&rsquo;re happy with the service I provided, please feel free to refer me to your friends and family.</p>
+                    </div></td>
+                </tr>
+                <tr>
+                  <td width="325" style="background-color: #ffffff; min-width: 325px; max-width: 325px;">&nbsp;</td>
+                  <td width="285" bgcolor="#252525" style="color: #ffffff; background-color: #252525; min-width: 285px; padding-top: 6px; padding-right: 30px; padding-bottom: 6px; padding-left: 10px;"><div class="desc-container" style="text-align: left;">
+                      <div style="margin: 0 !important; color: #ffffff; font-family: arial, sans-serif;"><span class="signature_name" style="font-size: 18px; font-weight: bold; line-height: 1em;">$cond(containsvalue(dealer_name), capitalizewords(lookup(dealer_name)), Your Cellular Sales Team)$</span></div>
+                      <div style="margin: 0 !important; color: #ffffff; font-family: arial, sans-serif; margin-top: 6px !important;"><span class="signature_email" style="color: #ffffff; font-family: arial, helvetica, verdana; font-size: 13px; font-weight: normal; line-height: 1.5em;">$cond(containsvalue(dealer_email), document(/contentlibrary/OrderConfirmation/_DynamicContent,Snippet_Contact_DealerEmail), document(/contentlibrary/OrderConfirmation/_DynamicContent,Snippet_Contact_Default))$<br />
+                     $cond(containsvalue(dealer_phone), lookup(dealer_phone), 877-851-0649)$</span></div>
+                    </div></td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="min-width: 650px;">
+              <tbody>
+                <tr>
+                  <td width="650" style="min-width: 650px;"><img src="CSThankYou_01.images/message_divider.jpg" width="650" height="30" style="display: block; min-width: 650px;" alt="" /></td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <!-- BEGIN DYNAMIC REGIONS -->
+               <!-- BEGIN OPT-IN CONTENT -->
+                 $cond(eq(lookup(customer_opt_in),O), document(/contentlibrary/OrderConfirmation/_DynamicContent,cs thank you 01 - optin 20150203), nothing())$
+               <!-- END OPT-IN CONTENT --> 
+               <!-- BEGIN REPAIR CONTENT -->
+                  $cond(and(eq(lookup(customer_city),Knoxville),eq(lookup(customer_state),TN)), document(/contentlibrary/OrderConfirmation/_DynamicContent,cs thank you 01 - repair center 20150203), nothing())$
+               <!-- END REPAIR CONTENT -->
+               <!-- BEGIN INSURANCE CONTENT -->
+                    $cond(eq(lookup(customer_has_uninsured_phone),Y), document(/contentlibrary/OrderConfirmation/_DynamicContent,cs thank you 01 - insurance 20150203), nothing())$
+               <!-- END INSURANCE CONTENT -->
+            <!-- END DYNAMIC REGIONS -->
+            
+            <table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="min-width: 650px;">
+              <tbody>
+                <tr>
+                  <td colspan="3" align="center"> $document(/contentlibrary/GlobalFooter,!GlobalMarketingFooter2015)$ </td>
+                </tr>
+              </tbody>
+            </table></td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- End of wrapper table --> 
+    <img src="https://pixel.monitor1.returnpath.net/pixel.gif?r=371a8023b42b99819a012b76a11c0f351d44481a&s=cellularsls.51628&c=cellularsls.1089" width="1" height="1" alt="" />
+    </body>
+    </html>
